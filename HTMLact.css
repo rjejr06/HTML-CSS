@@ -1,0 +1,102 @@
+/* BODY */
+
+body {
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: rgb(102, 221, 33);
+  font-size: 20px;
+  line-height: 28px;
+  color: #1d3441;
+  margin: 40px 0;
+}
+
+
+h1 {
+  position: relative;
+  margin: 50px 70px;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #39e7f2;
+  -webkit-transform:  skew(-4deg, -4deg) rotate(4deg);
+  transform:          skew(-4deg, -4deg) rotate(4deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  text-shadow:  1px 1px #0d7e8e,
+                2px 2px #0d7e8e,
+                3px 3px #0d7e8e,
+                4px 4px #0d7e8e,
+                5px 5px #0d7e8e,
+                6px 6px #0d7e8e,
+                7px 7px #0d7e8e,
+                8px 8px #126265,
+                9px 9px #126265,
+                10px 10px #126265,
+                10px 10px 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  display: inline-block;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  opacity: 0;
+}
+
+  @keyframes animate {
+    0% {
+      opacity: 0.2;
+      transform: rotateX(90deg);
+      filter: blur(10px);
+    }
+    5% {
+      opacity: 0.5;
+      transform: rotateX(80deg);
+      filter: blur(1px);
+    }
+    10% {
+      opacity: 0.7;
+      transform: rotateX(2deg);
+      filter: blur(0px);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateY(0deg);
+      filter: blur(0);
+    }
+  }
+
+b.y {
+color: rgb(177, 160, 15);
+}
+b.g {
+color: rgb(14, 194, 15);
+}
+b.b {
+color: rgb(8, 177, 182);
+}
+b.r {
+color: rgb(227, 30, 105);
+}
+b.o {
+color: rgb(209, 135, 5);
+}
+b.v {
+color: rgb(159, 8, 189);
+}
+
+h2  {
+  font-weight: 900;
+  margin: 0 2%;
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  color: #323b40;
+}
+
+p {
+  display: inline-block;
+  margin: 0 1%;
+  font-size: 1em;
+  font-family: 'Oranienbaum', serif;
+
+}
